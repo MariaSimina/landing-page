@@ -20,10 +20,11 @@ ul {
     display: flex;
 }
 
-.main-section, .some-info-section, .call-action-section {
+.main-section, .some-info-section, .quote-section, .call-action-section {
     flex: 1;
     display: flex;
     justify-content: center;
+    padding-bottom: 16px;
 }
 
 .header {
@@ -46,7 +47,10 @@ ul {
 .main-section {
     background-color: #1f2937;
     align-items: center;
-    padding: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 100px;
+    flex: 1;
 }
 
 .title {
@@ -66,4 +70,11 @@ ul {
     color: #fff;
     padding: 4px 8px;
     border-radius: 6px;
+}
+
+.main-section-img {
+    height: 100px;
+    padding: inherit;
+    display: inherit;
+    flex: 1;
 }
