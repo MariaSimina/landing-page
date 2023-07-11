@@ -1,9 +1,69 @@
 body{
     height: 100vh;
     display: flex;
+    margin: 0;
     flex-direction: column;
 }
 
-.main-section, .some-info-section, .quote-section, .call-action-section {
+button {
+    background: none;
+    color: inherit;
+    font: inherit;
+    outline: inherit;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-section, .some-info-section, .call-action-section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 16px;
+    justify-content: space-around;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.left-side {
+    font-size: 24px;
+}
+
+.right-side {
+    font-size: 16px;
+}
+
+.main-section {
+    background-color: #1f2937;
+    align-items: center;
+    padding: 48px;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.main-section-text-button, .call-action-section-button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 6px;
 }
