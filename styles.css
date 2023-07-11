@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section, .some-info-section, .quote-section, .call-action-section {
+    flex: 1;
+}
