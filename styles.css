@@ -5,6 +5,10 @@ body{
     flex-direction: column;
 }
 
+img{
+    align-self: center;
+}
+
 button {
     background: none;
     color: inherit;
@@ -73,8 +77,6 @@ ul {
 }
 
 .main-section-img {
-    height: 100px;
-    padding: inherit;
-    display: inherit;
-    flex: 1;
+    height: 200px;
+    width: 200px;
 }
