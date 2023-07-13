@@ -117,3 +117,25 @@ ul {
     font-weight: 600;
     align-self: flex-end;
 }
+
+.call-action-section-content {
+    display: flex;
+    background-color: #3882f6;
+    padding: 16px 50px;
+    color: #fff;
+    border-radius: 4px;
+    gap: 16px;
+}
+
+.call-action-section-title {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.call-action-section-subtext {
+    font-style: italic;
+}
+
+.call-action-section-button {
+    border: #5d6166 solid 2px;
+}
