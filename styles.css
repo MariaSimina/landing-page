@@ -24,7 +24,7 @@ ul {
     display: flex;
 }
 
-.main-section, .some-info-section, .quote-section, .call-action-section {
+.main-section, .some-info-section-items, .quote-section, .call-action-section {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -79,4 +79,31 @@ ul {
 .main-section-img {
     height: 200px;
     width: 200px;
+}
+
+.some-info-section-text {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 8px;
+    padding-top: 16px;
+}
+
+.some-info-section-items {
+    padding: 16px;
+}
+
+.some-info-section-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    padding-bottom: 8px;
+}
+
+.some-info-section-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
